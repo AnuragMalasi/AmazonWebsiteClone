@@ -191,3 +191,74 @@
 .panel-options:hover {
     cursor: pointer;
 }
+
+/* Hero section --------------------------------------*/
+.hero-section {
+    background-image: url("images/hero_image.jpg");
+    height: 310px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-text {
+    background-color: rgb(225, 225, 225);
+    color: #000000;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    width: 95%;
+    margin-bottom: 30px;
+}
+
+.hero-text a{
+    color: #037083;
+    text-decoration: none;
+}
+
+.hero-text a:hover {
+    color: #9d620b;
+    text-decoration: solid underline #9d620b;
+}
+
+/* shop section css ---------------------------------- */
+
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #dadada;
+    flex-wrap: wrap;
+}
+
+.container {
+    height: 400px;
+    width: 23%;
+    padding: 20px 0px 15px;
+    background-color: #ffffff;
+    margin-top: 15px;
+}
+
+.box-image {
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content a {
+    text-decoration: none;
+    color: #007185;
+}
+
+.box-content a:hover {
+    color: #9d620b;
+    text-decoration: solid underline #9d620b;
+}
