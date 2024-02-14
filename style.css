@@ -4,6 +4,8 @@
     border: border-box;
 }
 
+/* Navigation bar css ----------------------------------------*/
+
 .navigation-bar {
     display: flex;
     height: 60px;
@@ -147,3 +149,45 @@
     border: #ffffff solid 1px;
 }
 
+/* Panel css --------------------------------------------*/
+
+.panel {
+    display: flex;
+    background-color: #222f3d;
+    height: 39px;
+    color: #ffffff;
+    align-items: center;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+.panel-all {
+    display: flex;
+    padding: 8px 9px;
+    align-items: center;
+}
+.panel-all:hover {
+    cursor: pointer;
+}
+
+.panel-all p {
+    padding-left: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.panel-all i {
+    font-size: 22px;
+}
+
+.panel-options a {
+    display: inline;
+    padding: 8px 7px 8px 9px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.panel-options:hover {
+    cursor: pointer;
+}
